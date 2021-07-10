@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 90px auto;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    
+}
+
+.jumbotron {
+    width: 42%;
+    margin-bottom: 5%;
+}
+
+.top h1 {
+    font-size: 40px;
+    width: 80%;
+    margin-bottom: 16px ;
+    color:hsl(300, 43%, 22%);
+
+}
+
+.ratings {
+    margin-top: 1.5rem;
+}
+
+.rating  {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: hsl(300, 24%, 96%);
+    padding: 0.7rem 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    align-items: center;
+}
+
+.rating-reviews {
+    margin-left: -200px;
+    margin-right:200px;
+}
+
+.rating-guru {
+    margin-left: -150px;
+    margin-right:150px;
+}
+
+.rating-img {
+    margin-right: 20px;
+}
+
+.rating-besttech {
+    margin-left: -100px;
+    margin-right:100px;
+}
+
+
+.ratings h3 {
+    font-size: 12px;
+   
+}
+
+.top p {
+    font-size: 15px;
+}
+
+
+.testimonies {
+    display: flex;
+    justify-content: space-evenly;
+    width: 94%;
+    height: 100%;
+}
+
+.testimony p {
+    font-size: 11px;
+}
+
+.testimony .name {
+    font-size: 11px;
+    font-weight: 700;
+    color: white;
+}
+
+.testimony p {
+    color: white;
+    font-weight: 400;
+}
+
+.testimony .ver {
+    display: block;
+    font-size: 11px;
+    color:hsl(333, 80%, 67%)
+}
+
+.testimony {
+    background-color:hsl(300, 43%, 22%);
+    margin-right: 30px;
+    padding: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.profilepic img {
+    display: inline;
+    display: inline;
+    float: left;
+    width: 20%;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.testimony p {
+    display: block;
+    margin-top: 30px;
+}
+
+
+
